@@ -35,7 +35,7 @@ app.post("/", function(req, res) {
   const url = "https://us9.api.mailchimp.com/3.0/lists/60cafadc5f";
   const options = {
     method: "POST",
-    auth: "katerina1:b34e963002d692fce995ae97c254c3d5-us"
+    auth: "katerina1:b34e963002d692fce995ae97c254c3d5-us9"
   }
 
   const request = https.request(url, options, function(response) {

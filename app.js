@@ -1,7 +1,7 @@
 const request = require("request");
 const express = require("express");
 const https = require("https");
-require("dotenv").conf();
+require("dotenv").config()
 
 const app = express();
 

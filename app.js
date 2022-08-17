@@ -8,7 +8,7 @@ const app = express();
 app.use(express.urlencoded({
   extended: true
 }));
-app.use(express.static("public")); /*in order to use the files that ar in the computer and not online*/
+app.use(express.static("public")); 
 
 app.get("/", function(req, res) {
   res.sendFile(__dirname + "/signup.html");
